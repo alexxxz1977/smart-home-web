@@ -24,7 +24,7 @@ The entire presentation layer of the nanoFramework application is written in C#,
 
 As the project grew, it became difficult to test the code by constantly deploying it to the physical device. To simplify this, I built an emulator that runs the application on Windows by rendering the presentation layer on a canvas of a WPF application.
 
-<img>
+![Screenshot 2024-10-19 234728](https://github.com/user-attachments/assets/a6c61bd2-8a29-4816-9920-005a856503cc)
 
 This allows me to test the UI and simulate the keyboard without having to deploy the application on the actual device. The emulator also simulates the Wi-Fi and MQTT connections, allowing me to develop most of the application without access to the physical device. I only test the final code on the actual device once I'm confident it works.
 
