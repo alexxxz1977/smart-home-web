@@ -1,12 +1,8 @@
-
-
-https://github.com/user-attachments/assets/a22187cc-90f7-48bc-870d-df81fdb5c137
-
 I am relatively new to [nanoFramework](https://github.com/nanoframework), started learning it about 4 years ago, although I've been programming in C# since the early 2000s. While working with *nanoFramework*, I've take a long path from simple tasks like blinking LEDs to creating my custom runtime images for Esp32 with interop assemblies (mostly by developing drivers for peripheral devices). Recently, I've been working on creating a control panel for smart home automation that can communicate with an application server over the MQTT protocol to manage various Z-Wave devices. The server has been written a bit earlier in 2018 on .Net Core 3.1 and runs on a Raspberry Pi.
 
 The control panel is a small, battery-powered device based on the [Esp32 TinyPico](https://www.tinypico.com/). It communicates with a .Net Core application server to control Z-Wave devices and display information like weather forecasts or public transportation schedules. I tried to write scalable code so that if necessary, other functionality could be easily added to the panel. At this point, the project is more or less complete and working, a brief demonstration is below.
 
-<img>
+https://github.com/user-attachments/assets/a22187cc-90f7-48bc-870d-df81fdb5c137
 
 The panel is designed as a "thin client," meaning it doesn't directly control devices or connect to third-party services on the internet. Instead, it sends requests to the application server via MQTT and processes the responses. This allows me with minimal effort to have a view of any device that attached to Raspberry PI, such as Z-Wave devices through Z-Wave stick, an SMS modem, and various online services like weather forecasts.
 
