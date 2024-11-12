@@ -37,9 +37,9 @@ _Setting up the build environment is relatively straightforward, thanks to pre-b
 
 _Based on my experience with nanoFramework, delving into the internals of the runtime, particularly through studying interops, is beneficial for a few reasons:_
 
-_*	**Performance**: Interops allow you to write speed-critical code, improving application performance._
-_*	**Architectural** Understanding: By working with interops, you gain a deeper understanding of nanoFramework's architecture. This helps you troubleshoot issues effectively, particularly when dealing with hardware-related problems._
-_*	**Code Samples**: The nanoFramework kernel serves as a valuable repository of code samples, which can be a great resource for learning and development._
+*_**Performance**: Interops allow you to write speed-critical code, improving application performance._
+*_**Architectural** Understanding: By working with interops, you gain a deeper understanding of nanoFramework's architecture. This helps you troubleshoot issues effectively, particularly when dealing with hardware-related problems._
+*_**Code Samples**: The nanoFramework kernel serves as a valuable repository of code samples, which can be a great resource for learning and development._
 
 _In summary, while the learning curve for nanoFramework is steep, exploring the kernel and interops is highly recommended for anyone looking to develop serious applications with nanoFramework. It provides a deeper understanding of the system and allows you to overcome performance limitations and debug effectively._
 
